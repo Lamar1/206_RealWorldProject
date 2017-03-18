@@ -11,7 +11,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Is the skin in the area dry and crusty?"
+        android:text="Does the rash spread down your neck?"
         android:layout_marginTop="36dp"
         android:layout_below="@+id/Title"
         android:layout_alignLeft="@+id/radioButton"
@@ -76,5 +76,14 @@
         android:layout_alignParentTop="true"
         android:layout_alignLeft="@+id/textView"
         android:layout_alignStart="@+id/textView" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:minWidth="200px"
+        android:minHeight="200px"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/radioButton"
+        android:layout_alignLeft="@+id/radioButton"
+        android:layout_alignStart="@+id/radioButton" />
 
 </RelativeLayout>
